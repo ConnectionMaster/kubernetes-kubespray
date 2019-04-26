@@ -219,7 +219,7 @@ gce_centos7-multus-calico:
   when: manual
 
 gce_oracle-canal:
-  stage: deploy-part2
+  stage: deploy-gce
   <<: *gce
   when: manual
   except: ['triggers']
